@@ -1,0 +1,40 @@
+﻿@model Domain.Products.Category;
+
+<!-- Main content START -->
+<div class="col-xl-9">
+    <!-- Edit profile START -->
+    <div class="card bg-transparent border rounded-3">
+        <!-- Card header -->
+        <div class="card-header bg-transparent border-bottom">
+            <h3 class="card-header-title mb-0 ff-vb fs-5">افزودن دسته بندی</h3>
+           
+        </div>
+        <!-- Card body START -->
+        <div class="card-body">
+            <!-- Form -->
+            <form asp-action="AddCategory" class="row g-4" method="post">
+                
+                
+
+                <!-- Username -->
+                <div class="col-md-6">
+                    <label class="form-label">اسم دسته بندی</label>
+                    <div class="input-group">
+                        <span class="input-group-text"></span>
+                        <input asp-for="description" class="form-control">
+                        <span asp-validation-for="description" class="input-group-text bg-light rounded-start border-0 text-secondary px-3"></span>
+                    </div>
+                </div>
+                <!-- Save button -->
+                <div class="d-sm-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary mb-0">ثبت</button>
+                </div>
+
+            </form>
+        </div>
+
+
+     </div>   
+        <!-- Card body END -->
+    </div>
+    <!-- Edit profile END -->

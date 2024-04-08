@@ -1,0 +1,213 @@
+﻿
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+	<title>Eduport - قالب HTML دوره آنلاین و آموزش</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="">
+	<meta name="description" content="Eduport - قالب HTML دوره آنلاین و آموزش">
+	
+	<!-- Dark mode -->
+	<script>
+		const storedTheme = localStorage.getItem('theme')
+
+		const getPreferredTheme = () => {
+			if (storedTheme) {
+				return storedTheme
+			}
+			return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+		}
+
+		const setTheme = function (theme) {
+			if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+				document.documentElement.setAttribute('data-bs-theme', 'dark')
+			} else {
+				document.documentElement.setAttribute('data-bs-theme', theme)
+			}
+		}
+
+		setTheme(getPreferredTheme())
+
+		window.addEventListener('DOMContentLoaded', () => {
+			var el = document.querySelector('.theme-icon-active');
+			if (el != 'undefined' && el != null) {
+				const showActiveTheme = theme => {
+					const activeThemeIcon = document.querySelector('.theme-icon-active use')
+					const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
+					const svgOfActiveBtn = btnToActive.querySelector('.mode-switch use').getAttribute('href')
+
+					document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+						element.classList.remove('active')
+					})
+
+					btnToActive.classList.add('active')
+					activeThemeIcon.setAttribute('href', svgOfActiveBtn)
+				}
+
+				window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+					if (storedTheme !== 'light' || storedTheme !== 'dark') {
+						setTheme(getPreferredTheme())
+					}
+				})
+
+				showActiveTheme(getPreferredTheme())
+
+				document.querySelectorAll('[data-bs-theme-value]')
+					.forEach(toggle => {
+						toggle.addEventListener('click', () => {
+							const theme = toggle.getAttribute('data-bs-theme-value')
+							localStorage.setItem('theme', theme)
+							setTheme(theme)
+							showActiveTheme(theme)
+						})
+					})
+
+			}
+		})
+
+	</script>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="/assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="/assets/vendor/choices/css/choices.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/vendor/aos/aos.css">
+
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-rtl.css">
+	
+	<link rel="stylesheet" type="text/css" href="/css/account.css">
+	<script src="/js/jquery.min.js"></script>
+
+</head>
+
+<body>
+	
+
+	<!-- Header START -->
+	<header class="navbar-light navbar-sticky">
+		<!-- Logo Nav START -->
+		<nav class="navbar navbar-expand-xl">
+			<div class="container">
+				<!-- Logo START -->
+				<a class="navbar-brand" href="index.html">
+					<img class="light-mode-item navbar-brand-item" src="/assets/images/logo.svg" alt="logo">
+					<img class="dark-mode-item navbar-brand-item" src="/assets/images/logo-light.svg" alt="logo">
+				</a>
+				<!-- Logo END -->
+							
+				</div>
+				</nav>
+					
+		<!-- Logo Nav END -->
+	</header>
+	<!-- Header END -->
+	<!-- **************** MAIN CONTENT START **************** -->
+	<main>
+
+		<!-- =======================
+		Page Banner START -->
+		<section class="pt-0">
+			<div class="container-fluid px-0">
+				<div class="card bg-blue h-100px h-md-200px rounded-0" style="background:url(assets/images/pattern/04.png) no-repeat center center; background-size:cover;">
+				</div>
+			</div>
+			<div class="container mt-n4">
+				<div class="row">
+					<div class="col-12">
+						
+						@await Component.InvokeAsync("Profile")
+						<!-- Advanced filter responsive toggler START -->
+						<!-- Divider -->
+						<hr class="d-xl-none">
+						<div class="col-12 col-xl-3 d-flex justify-content-between align-items-center">
+							<a class="h6 mb-0 fw-bold d-xl-none" href="#">منو</a>
+							<button class="btn btn-primary d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+								<i class="fas fa-sliders-h"></i>
+							</button>
+						</div>
+						<!-- Advanced filter responsive toggler END -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- =======================
+		Page Banner END -->
+		<!-- =======================
+		Page content START -->
+		<section class="pt-0">
+			<div class="container">
+				<div class="row">
+
+					<!-- Left sidebar START -->
+					<div class="col-xl-3">
+						<!-- Responsive offcanvas body START -->
+						<div class="offcanvas-xl offcanvas-end" tabindex="-1" id="offcanvasSidebar">
+							<!-- Offcanvas header -->
+							<div class="offcanvas-header bg-light">
+								<h5 class="offcanvas-title" id="offcanvasNavbarLabel">پروفایل من</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasSidebar" aria-label="Close"></button>
+							</div>
+							<!-- Offcanvas body -->
+							<div class="offcanvas-body p-3 p-xl-0">
+								<div class="bg-dark border rounded-3 p-3 w-100">
+									<!-- Dashboard menu -->
+									<div class="list-group list-group-dark list-group-borderless collapse-list">
+										<a class="list-group-item" asp-area="StudentPanel" asp-action="index" asp-controller="home"><i class="bi bi-ui-checks-grid fa-fw me-2"></i>داشبورد</a>				
+										<a asp-area="StudentPanel" asp-action="EditProfile"  asp-controller="Home" class="list-group-item" ><i class="bi bi-pencil-square fa-fw me-2"></i>ویرایش پروفایل</a>
+										<a class="list-group-item" asp-action="deleteusr" asp-area="StudentPanel" asp-controller="Home"><i class="bi bi-trash fa-fw me-2"></i>حذف پروفایل</a>
+										<a class="list-group-item text-danger bg-danger-soft-hover" href="/logout"><i class="fas fa-sign-out-alt fa-fw me-2"></i>خروج</a>
+																		
+									</div>
+								
+								</div>
+								
+							</div>
+							
+						</div>
+						<!-- Responsive offcanvas body END -->
+						@await Component.InvokeAsync("ProfileComplit")
+					</div>
+					@RenderBody()
+				</div>
+			</div>
+			
+		</section>
+		<!-- =======================
+		Page content END -->
+
+	</main>
+	<!-- **************** MAIN CONTENT END **************** -->
+	
+	<!-- Back to top -->
+	<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
+
+	<!-- Bootstrap JS -->
+	<script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Vendors -->
+	<script src="/assets/vendor/choices/js/choices.min.js"></script>
+	<script src="/assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+	<script src="/assets/vendor/aos/aos.js"></script>
+
+	<!-- Template Functions -->
+	<script src="/assets/js/functions.js"></script>
+	
+	
+	<script src="/js/bootstrap.min.js"></script>	
+	<script src="/js/progress.js"></script>
+	<script src="/js/slimscroll.js"></script>
+	<script src="/js/account.js"></script>
+
+	
+</body>
+
+</html>

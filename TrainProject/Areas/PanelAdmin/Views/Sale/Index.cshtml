@@ -1,0 +1,146 @@
+﻿
+
+<div class="page-content-wrapper border">
+
+	<!-- Title -->
+	<div class="row mb-3">
+		<div class="col-12">
+			<h1 class="h3 mb-0 fs-5">درآمدها</h1>
+		</div>
+		<div class="col-12">
+			<h3 class="h3 mb-0 fs-5">تاریخ امروز @ViewBag.time</h3>
+		</div>
+	</div>
+
+	<div class="row g-4 mb-4">
+		<!-- Earning item -->
+		<div class="col-sm-6 col-lg-4">
+			<div class="p-4 bg-primary bg-opacity-10 rounded-3">
+				<h6>فروش این ماه</h6>
+				<h6 class="mb-0  text-orange"> تعداد دوره:  @ViewBag.countMouncly</h6>
+				<h6 class="mb-0  text-orange">مجموع در امد این ماه: @ViewBag.priceMounth.ToString("#,##0") تومان</h6>
+			</div>
+		</div>
+
+
+		<!-- Earning item -->
+		<div class="col-sm-6 col-lg-4">
+			<div class="p-4 bg-orange bg-opacity-10 rounded-3">
+				<h6>درآمدهای امروز</h6>
+				<h6 class="mb-0  text-orange"> تعداد دوره:  @ViewBag.countdaily</h6>
+				<h6 class="mb-0  text-orange">مجموع در امد امروز: @ViewBag.priceTodey.ToString("#,##0") تومان</h6>
+			</div>
+		</div>
+		<!-- Earning item -->
+		<div class="col-sm-6 col-lg-4">
+			<div class="p-4 bg-purple bg-opacity-10 rounded-3">
+				<h6>
+					تعداد کل دوره ها
+				</h6>
+				<h2 class="mb-0  text-purple">@ViewBag.productCount</h2>
+			</div>
+		</div>
+
+	</div> <!-- Row END -->
+	<!-- All review table START -->
+	<div class="card bg-transparent border">
+
+		<!-- Card header START -->
+		<div class="card-header bg-light border-bottom">
+			<h5 class="mb-0">تاریخچه فاکتور</h5>
+		</div>
+		<!-- Card header END -->
+		<!-- Card body START -->
+		<div class="card-body pb-0">
+			<!-- Table START -->
+			<div class="table-responsive border-0">
+				<table class="table table-dark-gray align-middle p-4 mb-0 table-hover">
+					<!-- Table head -->
+					<thead>
+						<tr>
+							<th scope="col" class="border-0 rounded-start">نام کاربر</th>
+							<th scope="col" class="border-0 rounded-start">شماره تماس</th>
+							<th scope="col" class="border-0">نام دوره</th>
+							<th scope="col" class="border-0">سطح دوره</th>
+							<th scope="col" class="border-0">تاریخ درخواست</th>
+							<th scope="col" class="border-0">مبلغ</th>							
+						</tr>
+					</thead>
+
+					<!-- Table body START -->
+					<tbody>
+						@foreach (var Items in ViewBag.info)
+						{
+
+							<!-- Table row -->
+							<tr>
+								<!-- Table data -->
+								<td>@Items.MyUser.UserName</td>
+
+								<td>@Items.MyUser.Mobile</td>
+								<!-- Table data -->
+								<td>
+									<h6 class="table-responsive-title mb-0 fw-normal"><a href="#">@Items.MyProduct.ProductName</a></h6>
+								</td>
+
+								<!-- Table data -->
+								<td>@Items.MyProduct.Level.Description</td>
+
+								<td>@Application.Convert.Dataconvert.Toshamsi(Items.CreateDate)</td>
+
+								<!-- Table data -->
+								<td>
+									@Items.MyProduct.Price.ToString("#,##0") تومان
+								</td>
+
+								<!-- Table data -->
+							
+							</tr>
+						}
+						
+
+					
+
+					</tbody>
+					<!-- Table body END -->
+				</table>
+			</div>
+			<!-- Table END -->
+		</div>
+		<!-- Card body END -->
+		@{
+			int count = ViewBag.productCount;
+			int pageId = ViewBag.PageId;
+			int take = ViewBag.Take;
+			double pageCount = ViewBag.pageCount;
+
+		}
+		<!-- Card body END -->
+		<!-- Card footer START -->
+		<div class="card-footer bg-transparent pt-0">
+
+			@if (pageCount >= 1)
+			{
+				<!-- Pagination START -->
+				<div class="d-sm-flex justify-content-sm-between align-items-sm-center">
+					<!-- Content -->
+					<!-- Pagination -->
+					<nav class="d-flex justify-content-center mb-0" aria-label="navigation">
+						<ul class="pagination pagination-sm pagination-primary-soft d-inline-block d-md-flex rounded mb-0">
+							@for (int i = 1; i <= pageCount + 1; i++)
+							{
+
+								<li class="page-item mb-0"><a class="page-link" href="/PanelAdmin/Sale/Index?pageid=@i" style="@((i==pageId)?"background-color: lightgoldenrodyellow;":"")">@i</a></li>
+							}
+
+
+						</ul>
+					</nav>
+				</div>
+				<!-- Pagination END -->
+			}
+
+		</div>
+	</div>
+	<!-- All review table END -->
+</div>

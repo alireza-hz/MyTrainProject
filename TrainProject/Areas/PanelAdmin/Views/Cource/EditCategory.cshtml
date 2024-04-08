@@ -1,0 +1,52 @@
+﻿@model Domain.Products.Category;
+@using Application.Convert;
+
+<!-- Main content START -->
+<div class="col-xl-9">
+    <!-- Edit profile START -->
+    <div class="card bg-transparent border rounded-3">
+        <!-- Card header -->
+        <div class="card-header bg-transparent border-bottom">
+            <h3 class="card-header-title mb-0 ff-vb fs-5">ویرایش دسته بندی</h3>
+            <span class="text-body fw-light">اخرین ویرایش در  </span>
+            <span class="h6">@Model.ModifiedDate.Toshamsi()</span>
+        </div>
+        <!-- Card body START -->
+        <div class="card-body">
+            <!-- Form -->
+            <form asp-action="EditCategory" class="row g-4" method="post">
+
+                <input asp-for="MyCategoryID" type="hidden" />
+                <!-- Username -->
+                <div class="col-md-6">
+                    <label class="form-label">دسته بندی</label>
+                    <div class="input-group">
+                        <span class="input-group-text"></span>
+                        <input asp-for="description" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">بازگردانی</label>
+                    <select asp-for="Isdelete" class="form-select js-choice border-0 z-index-9 bg-transparent">
+                        <span asp-validation-for="Isdelete" class="input-group-text bg-light rounded-start border-0 text-secondary px-3"></span>
+                        <option value="">انتخاب</option>
+                        <option value="false">بازگردانی</option>
+                    </select>
+                </div>
+                <!-- Save button -->
+                <div class="d-sm-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary mb-0">ویرایش</button>
+                </div>
+
+            </form>
+        </div>
+
+        <!-- Card body END -->
+    </div>
+    <!-- Edit profile END -->
+
+
+
+
+</div>
+

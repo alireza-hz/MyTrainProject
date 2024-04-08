@@ -1,0 +1,194 @@
+﻿@using Domain.Products
+@model IEnumerable<MyProduct>;
+
+
+
+<!-- Page main content START -->
+
+<div class="page-content-wrapper border">
+
+	<!-- Title -->
+	<div class="row mb-3">
+		<div class="col-12 d-sm-flex justify-content-between align-items-center">
+			<h1 class="h3 mb-2 mb-sm-0 fs-5">لیست دوره ها</h1>
+			<a asp-area="PanelAdmin" asp-action="AdminAddCource" asp-controller="home" class="btn btn-sm btn-primary mb-0">افزودن دوره</a>
+		</div>
+	</div>
+
+	<!-- Course boxes START -->
+	<div class="row g-4 mb-4">
+		<!-- Course item -->
+		<div class="col-sm-6 col-lg-4">
+			<div class="text-center p-4 bg-primary bg-opacity-10 border border-primary rounded-3">
+				<h6>دوره ها</h6>
+				<a href="/PanelAdmin/home/AdminCourceList" class="mb-0 fs-1 text-success">@ViewBag.productCount1</a>
+			</div>
+		</div>
+
+		<!-- Course item -->
+		<div class="col-sm-6 col-lg-4">
+			<div class="text-center p-4 bg-success bg-opacity-10 border border-success rounded-3">
+				<h6>دوره های فعال</h6>
+				<a href="/PanelAdmin/cource/ShowActiveCource" class="mb-0 fs-1 text-success">@ViewBag.activecource</a>
+			</div>
+		</div>
+
+		<!-- Course item -->
+		<div class="col-sm-6 col-lg-4">
+			<div class="text-center p-4  bg-warning bg-opacity-15 border border-warning rounded-3">
+				<h6>حذف شده</h6>
+				<a href="/PanelAdmin/cource/ShowDeleteCource" class="mb-0 fs-1 text-success">@ViewBag.deltecoure</a>
+			</div>
+		</div>
+	</div>
+	<!-- Course boxes END -->
+	<!-- Card START -->
+	<div class="card bg-transparent border">
+
+
+		<!-- Card header END -->
+		<!-- Card body START -->
+		<div class="card-body">
+			<!-- Course table START -->
+			<div class="table-responsive border-0 rounded-3">
+				<!-- Table START -->
+				<table class="table table-dark-gray align-middle p-4 mb-0 table-hover">
+					<!-- Table head -->
+					<thead>
+						<tr>
+							<th scope="col" class="border-0 rounded-start">نام دوره</th>
+
+							<th scope="col" class="border-0">تاریخ انتشار</th>
+							<th scope="col" class="border-0">سطح</th>
+							<th scope="col" class="border-0">قیمت</th>
+
+							<th scope="col" class="border-0 rounded-end">عملیات</th>
+							<th scope="col" class="border-0 rounded-end">وضعیت</th>
+						</tr>
+					</thead>
+
+					<!-- Table body START -->
+					<tbody>
+
+						@foreach (var item in Model)
+						{
+
+							<!-- Table row -->
+							<tr>
+								<!-- Table data -->
+								<td>
+									<div class="d-flex align-items-center position-relative">
+										<!-- Image -->
+										<div class="w-60px">
+											<img src="/Avatars/@item.Avatar" class="rounded" alt="">
+										</div>
+										<!-- Title -->
+										<h6 class="table-responsive-title mb-0 ms-2">
+											<a href="#" class="stretched-link"> @item.ProductName</a>
+										</h6>
+									</div>
+								</td>
+
+								<!-- Table data -->
+								<!-- Table data -->
+								<td>@item.Createdate.Toshamsi()</td>
+
+
+
+								<!-- Table data -->
+								<td> <span class="badge text-bg-primary">@item.Level.Description</span> </td>
+
+
+
+								<!-- Table data -->
+								<td>@item.Price</td>
+
+								<!-- Table data -->
+								<!-- Table data -->
+								<td>
+									<a href="/PanelAdmin/Cource/EditCource?productid=@item.MyProductId" class="btn btn-sm btn-success-soft me-1 mb-1 mb-md-0">ویرایش</a>
+									<a href="/PanelAdmin/Home/DeleteProduct?id=@item.MyProductId" class="btn btn-sm btn-danger-soft me-1 mb-1 mb-md-0">حذف</a>
+								</td>
+
+
+
+								@if (item.Isdelete == true)
+								{
+									<td>
+										<div class="d-flex align-items-center position-relative">
+											<!-- Title -->
+											<h6 class="table-responsive-title mb-0 ms-2">
+												<a href="/PanelAdmin/Home/RecoverProduct?id=@item.MyProductId" class="btn btn-sm btn-danger me-1 mb-1 mb-md-0">حذف شده</a>
+											</h6>
+										</div>
+									</td>
+
+								}
+								else
+								{
+									<td>
+										<div class="d-flex align-items-center position-relative">
+											<!-- Title -->
+											<h6 class="table-responsive-title mb-0 ms-2">
+												حذف نشده
+											</h6>
+										</div>
+									</td>
+
+								}
+
+
+							</tr>
+
+						}
+
+
+
+
+					</tbody>
+					<!-- Table body END -->
+				</table>
+				<!-- Table END -->
+			</div>
+			<!-- Course table END -->
+		</div>
+
+		@{
+			int count = ViewBag.productCount;
+			int pageId = ViewBag.PageId;
+			int take = ViewBag.Take;
+			double pageCount = ViewBag.pageCount;
+
+		}
+		<!-- Card body END -->
+		<!-- Card footer START -->
+		<div class="card-footer bg-transparent pt-0">
+
+			@if (pageCount >= 1)
+			{
+				<!-- Pagination START -->
+				<div class="d-sm-flex justify-content-sm-between align-items-sm-center">
+					<!-- Content -->
+					<!-- Pagination -->
+					<nav class="d-flex justify-content-center mb-0" aria-label="navigation">
+						<ul class="pagination pagination-sm pagination-primary-soft d-inline-block d-md-flex rounded mb-0">
+							@for (int i = 1; i <= pageCount + 1; i++)
+							{
+
+								<li class="page-item mb-0"><a class="page-link" href="/PanelAdmin/cource/ShowActiveCource?pageid=@i" style="@((i==pageId)?"background-color: lightgoldenrodyellow;":"")">@i</a></li>
+							}
+
+
+						</ul>
+					</nav>
+				</div>
+				<!-- Pagination END -->
+			}
+
+		</div>
+		<!-- Card footer END -->
+	</div>
+	<!-- Card END -->
+</div>
+<!-- Page main content END -->
+

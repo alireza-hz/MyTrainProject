@@ -1,0 +1,158 @@
+﻿@using Domain.Shop
+@model IEnumerable<Item>;
+<div class="page-content-wrapper border">
+
+    <!-- Title -->
+    <div class="row">
+        <div class="col-12">
+            <h1 class="h3 mb-2 mb-sm-0 fs-5">لیست کاربران </h1>
+        </div>
+    </div>
+
+    <!-- Card START -->
+    <div class="card bg-transparent">
+
+        <!-- Card header START -->
+        <div class="card-header bg-transparent border-bottom px-0">
+            <!-- Search and select START -->
+            <!-- Card header END -->
+            <!-- Card body START -->
+            <div class="card-body px-0">
+                <!-- Tabs content START -->
+                <div class="tab-content">
+                    <!-- Tabs content item START -->
+                    <div class="tab-pane fade active show" id="nav-html-tab-1" role="tabpanel">
+                        <!-- Table START -->
+                        <div class="table-responsive border-0">
+                            <table class="table table-dark-gray align-middle p-4 mb-0 table-hover">
+                                <!-- Table head -->
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="border-0 rounded-start">نام محصول</th>
+                                        <th scope="col" class="border-0">سطح</th>
+                                        <th scope="col" class="border-0">تاریخ ایجاد</th>
+                                        <th scope="col" class="border-0">تاریخ درخواست</th>
+                                        <th scope="col" class="border-0 rounded-end">عملیات</th>
+                                        <th scope="col" class="border-0 rounded-end">وضعیت</th>
+                                    </tr>
+                                </thead>
+
+                                <!-- Table body START -->
+                                <tbody>
+                                    @foreach (var Items in ViewBag.info)
+                                    {
+                                        <!-- Table row -->
+                                        <tr>
+                                            <!-- Table data -->
+                                            <td>
+                                                <div class="d-flex align-items-center position-relative">
+                                                    <!-- Image -->
+                                                    <div class="avatar avatar-md">
+                                                        <img src="/Avatars/@Items.MyProduct.Avatar" class="rounded-circle" alt="">
+                                                    </div>
+                                                    <div class="mb-0 ms-2">
+                                                        <!-- Title -->
+                                                        <h6 class="mb-0"><a href="#" class="stretched-link">@Items.MyProduct.ProductName</a></h6>
+                                                    </div>
+                                                </div>
+                                            </td>
+
+                                            <!-- Table data -->
+                                            <td class="text-center text-sm-start">
+                                                <h6 class="mb-0 fw-normal">@Items.MyProduct.Level.Description</h6>
+                                            </td>
+
+                                            <!-- Table data -->
+                                            <td>@Application.Convert.Dataconvert.Toshamsi(Items.MyProduct.Createdate)</td>
+
+                                           
+                                            <!-- Table data -->
+                                            <td>@Application.Convert.Dataconvert.Toshamsi(Items.CreateDate)</td>
+
+                                            <!-- Table data -->
+
+                                            <td class="text-center text-sm-start">
+                                                <a href="/PanelAdmin/User/ConfirmCourc?Itemid=@Items.ItemId" class="btn btn-sm btn-success-soft me-1 mb-1 mb-md-0">تایید شرکت در دوره</a>
+                                            </td>
+
+
+
+                                            @if (Items.IsConfirm == true)
+                                            {
+                                                <td>
+                                                    <div class="d-flex align-items-center position-relative">
+                                                        <!-- Title -->
+                                                        <h6 class="table-responsive-title mb-0 ms-2">
+                                                            <a href="/PanelAdmin/User/RejectCource?Itemid=@Items.ItemId" class="btn btn-sm btn-danger me-1 mb-1 mb-md-0">قبول شده</a>
+                                                        </h6>
+                                                    </div>
+                                                </td>
+
+                                            }
+                                            else
+                                            {
+                                                <td>
+                                                    <div class="d-flex align-items-center position-relative">
+                                                        <!-- Title -->
+                                                        <h6 class="table-responsive-title mb-0 ms-2">
+                                                            رد شده
+                                                        </h6>
+                                                    </div>
+                                                </td>
+
+                                            }
+                                        </tr>
+
+                                    }
+                                </tbody>
+                                <!-- Table body END -->
+                            </table>
+                        </div>
+                        <!-- Table END -->
+                    </div>
+                    <!-- Tabs content item END -->
+
+                </div>
+                <!-- Tabs content END -->
+            </div>
+            <!-- Card body END -->
+            @{
+                int count = ViewBag.productCount;
+                int pageId = ViewBag.PageId;
+                int take = ViewBag.Take;
+                double pageCount = ViewBag.pageCount;
+
+            }
+            <!-- Card body END -->
+            <!-- Card footer START -->
+            <div class="card-footer bg-transparent pt-0">
+
+                @if (pageCount >= 1)
+                {
+                    <!-- Pagination START -->
+                    <div class="d-sm-flex justify-content-sm-between align-items-sm-center">
+                        <!-- Content -->
+                        <!-- Pagination -->
+                        <nav class="d-flex justify-content-center mb-0" aria-label="navigation">
+                            <ul class="pagination pagination-sm pagination-primary-soft d-inline-block d-md-flex rounded mb-0">
+                                @for (int i = 1; i <= pageCount + 1; i++)
+                                {
+
+                                    <li class="page-item mb-0"><a class="page-link" href="/PanelAdmin/User/ShowCourceofuser?pageid=@i" style="@((i==pageId)?"background-color: lightgoldenrodyellow;":"")">@i</a></li>
+                                }
+
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Pagination END -->
+                }
+
+            </div>
+            <!-- Card footer END -->
+        </div>
+        <!-- Card END -->
+    </div>
+</div>
+
+

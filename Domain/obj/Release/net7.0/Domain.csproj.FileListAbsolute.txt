@@ -1,0 +1,14 @@
+D:\myproject\Train\Train\Domain\bin\Release\net7.0\Domain.deps.json
+D:\myproject\Train\Train\Domain\bin\Release\net7.0\Domain.runtimeconfig.json
+D:\myproject\Train\Train\Domain\bin\Release\net7.0\Domain.dll
+D:\myproject\Train\Train\Domain\bin\Release\net7.0\Domain.pdb
+D:\myproject\Train\Train\Domain\obj\Release\net7.0\Domain.csproj.AssemblyReference.cache
+D:\myproject\Train\Train\Domain\obj\Release\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\myproject\Train\Train\Domain\obj\Release\net7.0\Domain.AssemblyInfoInputs.cache
+D:\myproject\Train\Train\Domain\obj\Release\net7.0\Domain.AssemblyInfo.cs
+D:\myproject\Train\Train\Domain\obj\Release\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\myproject\Train\Train\Domain\obj\Release\net7.0\Domain.dll
+D:\myproject\Train\Train\Domain\obj\Release\net7.0\refint\Domain.dll
+D:\myproject\Train\Train\Domain\obj\Release\net7.0\Domain.pdb
+D:\myproject\Train\Train\Domain\obj\Release\net7.0\Domain.genruntimeconfig.cache
+D:\myproject\Train\Train\Domain\obj\Release\net7.0\ref\Domain.dll

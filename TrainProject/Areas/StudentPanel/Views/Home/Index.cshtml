@@ -1,0 +1,136 @@
+﻿<div class="col-xl-9">
+
+	<!-- Counter boxes START -->
+	<div class="row mb-4">	
+	</div>
+	<!-- Counter boxes END -->
+
+	<div class="card bg-transparent border rounded-3">
+		<!-- Card header START -->
+		<div class="card-header bg-transparent border-bottom">
+			<h3 class="mb-0 fs-5 ff-vb">لیست دوره های من</h3>
+		</div>
+		<!-- Card header END -->
+		<!-- Card body START -->
+		<div class="card-body">
+
+			<!-- Search and select START -->
+			<div class="row g-3 align-items-center justify-content-between mb-4">
+				<!-- Content -->
+				<div class="col-md-8">
+					<form class="rounded position-relative">
+						<input class="form-control pe-5 bg-transparent" type="search" placeholder="جستجوی دوره" aria-label="Search">
+						<button class="bg-transparent p-2 position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset" type="submit">
+							<i class="fas fa-search fs-6 "></i>
+						</button>
+					</form>
+				</div>
+
+				<!-- Select option -->
+				<div class="col-md-3">
+					<!-- Short by filter -->
+					<form>
+						<select class="form-select js-choice border-0 z-index-9 bg-transparent" aria-label=".form-select-sm">
+							<option value="">مرتب سازی</option>
+							<option>رایگان</option>
+							<option>جدیدترین</option>
+							<option>پربازدیدترین</option>
+							<option>پرفروش ترین</option>
+						</select>
+					</form>
+				</div>
+			</div>
+			<!-- Search and select END -->
+			<!-- Course list table START -->
+			<div class="table-responsive border-0">
+				<table class="table table-dark-gray align-middle p-4 mb-0 table-hover">
+					<!-- Table head -->
+					<thead>
+						<tr>
+							<th scope="col" class="border-0 rounded-start"> نام دوره</th>
+							<th scope="col" class="border-0">سطح دوره</th>
+							<th scope="col" class="border-0">قیمت دوره</th>
+							<th scope="col" class="border-0 rounded-end">تاریخ ثبت نام</th>
+						</tr>
+					</thead>
+
+					<!-- Table body START -->
+					<tbody>
+						<!-- Table item -->
+						@foreach (var Items in ViewBag.info)
+						{
+							<tr>
+								<!-- Table data -->
+								<td>
+									<div class="d-flex align-items-center">
+										<!-- Image -->
+										<div class="w-100px">
+											<img src="/Avatars/@Items.MyProduct.Avatar" class="rounded" alt="">
+										</div>
+										<div class="mb-0 ms-2">
+											<!-- Title -->
+											<h6 class="fw-normal"><a href="#">@Items.MyProduct.ProductName</a></h6>
+											
+										</div>
+									</div>
+								</td>
+
+								<!-- Table data -->
+								<td>@Items.MyProduct.Level.Description</td>
+
+								<!-- Table data -->
+								<td>@Items.MyProduct.Price.ToString("#,##0") تومان</td>
+
+								<!-- Table data -->
+								<td>@Application.Convert.Dataconvert.Toshamsi(@Items.CreateDate)</td>
+							</tr>
+
+						}
+					
+
+						
+					</tbody>
+					<!-- Table body END -->
+				</table>
+			</div>
+			<!-- Course list table END -->
+			<!-- Course Grid END -->
+			@{
+				int count = ViewBag.productCount;
+				int pageId = ViewBag.PageId;
+				int take = ViewBag.Take;
+				double pageCount = ViewBag.pageCount;
+
+
+			}
+			<!-- Card body END -->
+			<!-- Card footer START -->
+			<div class="card-footer bg-transparent pt-0">
+
+				@if (pageCount >= 1)
+				{
+					<!-- Pagination START -->
+					<div class="d-sm-flex justify-content-sm-between align-items-sm-center">
+						<!-- Content -->
+						<!-- Pagination -->
+						<nav class="d-flex justify-content-center mb-0" aria-label="navigation">
+							<ul class="pagination pagination-sm pagination-primary-soft d-inline-block d-md-flex rounded mb-0">
+								@for (int i = 1; i <= pageCount + 1; i++)
+								{
+
+									<li class="page-item mb-0"><a class="page-link" href="/StudentPanel/home/index?pageid=@i" style="@((i==pageId)?"background-color: lightgoldenrodyellow;":"")">@i</a></li>
+								}
+
+
+							</ul>
+						</nav>
+					</div>
+					<!-- Pagination END -->
+				}
+		</div>
+		<!-- Card body START -->
+	</div>
+	<!-- Main content END -->
+</div><!-- Row END -->
+
+

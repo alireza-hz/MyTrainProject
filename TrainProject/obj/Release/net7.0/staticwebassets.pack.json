@@ -1,0 +1,1485 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\TrainProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TrainProject.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\13457059-1670-4982-9590-24e58d772792.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\13457059-1670-4982-9590-24e58d772792.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\1d8f9aae-f5cf-42ef-a375-62245eb7ba78.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\1d8f9aae-f5cf-42ef-a375-62245eb7ba78.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\3152ac04-a38a-4edb-abb8-6764042a8157.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\3152ac04-a38a-4edb-abb8-6764042a8157.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\45335995-118d-4eb3-b321-08e4004212c9.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\45335995-118d-4eb3-b321-08e4004212c9.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\530a8cdd-a7e5-461b-a336-6e9eefcf307b.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\530a8cdd-a7e5-461b-a336-6e9eefcf307b.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\61b0bf2e-abdf-42cb-ad4c-c5e85d845499.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\61b0bf2e-abdf-42cb-ad4c-c5e85d845499.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\6aac923f-a5a5-4f44-b110-e5ff0dadc4f6.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\6aac923f-a5a5-4f44-b110-e5ff0dadc4f6.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\6e5b1e91-f898-432a-bf2a-9a889d41840d.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\6e5b1e91-f898-432a-bf2a-9a889d41840d.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\8a3d9099-07d7-4e7c-aa21-d0bd27e12d70.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\8a3d9099-07d7-4e7c-aa21-d0bd27e12d70.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\91851843-9c4c-484e-a3d1-10e32e8bf10a.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\91851843-9c4c-484e-a3d1-10e32e8bf10a.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\cd5b19f2-40a2-4ad3-b29e-b39da8ebe0ca.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\cd5b19f2-40a2-4ad3-b29e-b39da8ebe0ca.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\d424f12a-36d6-4dac-af5b-731e4ab0448b.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\d424f12a-36d6-4dac-af5b-731e4ab0448b.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\d8d103b5-b09c-42c7-a268-3137ade9573d.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\d8d103b5-b09c-42c7-a268-3137ade9573d.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\download.png",
+      "PackagePath": "staticwebassets\\Avatars\\download.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\e3f94758-1b80-4ca0-b072-11b5b8c83217.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\e3f94758-1b80-4ca0-b072-11b5b8c83217.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\Avatars\\usernotlogin.jpg",
+      "PackagePath": "staticwebassets\\Avatars\\usernotlogin.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\css\\style-rtl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style-rtl.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\IRANSans\\IRANSansWeb(FaNum).woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IRANSans\\IRANSansWeb(FaNum).woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\IRANSans\\IRANSansWeb.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IRANSans\\IRANSansWeb.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\IRANSans\\IRANSansWeb.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IRANSans\\IRANSansWeb.ttf"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Tanha\\Tanha-FD.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Tanha\\Tanha-FD.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Tanha\\Tanha-FD.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Tanha\\Tanha-FD.ttf"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Tanha\\Tanha-FD.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Tanha\\Tanha-FD.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Tanha\\Tanha-FD.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Tanha\\Tanha-FD.woff2"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Yekan\\Yekan.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Yekan\\Yekan.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Yekan\\Yekan.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Yekan\\Yekan.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Yekan\\Yekan.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Yekan\\Yekan.ttf"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Yekan\\Yekan.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Yekan\\Yekan.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Yekan\\iranyekanwebmediumfanum.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Yekan\\iranyekanwebmediumfanum.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Yekan\\iranyekanwebmediumfanum.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Yekan\\iranyekanwebmediumfanum.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Yekan\\iranyekanwebmediumfanum.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Yekan\\iranyekanwebmediumfanum.ttf"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\Yekan\\iranyekanwebmediumfanum.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Yekan\\iranyekanwebmediumfanum.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Bold-FD.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Bold-FD.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Bold.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Bold.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Bold.ttf"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Bold.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Bold.woff2"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Light-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Light-FD-WOL.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Light-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Light-FD-WOL.ttf"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Light-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Light-FD-WOL.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Light-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Light-FD-WOL.woff2"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Medium-WOL.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Medium-WOL.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Medium-WOL.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Medium-WOL.ttf"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Medium-WOL.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Medium-WOL.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Medium-WOL.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Medium-WOL.woff2"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-Meduim-FD.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Meduim-FD.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir-WOL.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-WOL.woff2"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir.ttf"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\fonts\\vazir\\Vazir.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir.woff2"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\01.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\02.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\03.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\04.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\05.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\06.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\07.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\09.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\10.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\11.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\12.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\13.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\14.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\15.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\16.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\17.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\18.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\19.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\20.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\21.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\22.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\23.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\24.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\25.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\25.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\26.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\26.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\27.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\27.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\about\\28.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\28.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\01.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\02.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\03.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\04.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\05.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\06.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\07.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\08.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\09.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\10.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\11.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\avatar\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\12.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\01.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\02.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\03.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\04.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\05.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\06.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\08.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\3by4\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\3by4\\01.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\3by4\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\3by4\\02.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\3by4\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\3by4\\03.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\3by4\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\3by4\\04.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\3by4\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\3by4\\05.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\3by4\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\3by4\\06.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\3by4\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\3by4\\07.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\bg\\3by4\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\3by4\\08.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\book\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\book\\01.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\book\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\book\\02.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\book\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\book\\03.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\book\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\book\\04.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\book\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\book\\05.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\book\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\book\\06.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\book\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\book\\07.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\book\\book-bg.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\book\\book-bg.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\ae-card.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\ae-card.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\aftereffect.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\aftereffect.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\algolia.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\algolia.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\android.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\android.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\angular.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\angular.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\app-store.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\app-store.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\coca-cola.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\coca-cola.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\envato.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\envato.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\figma.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\figma.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\google-play.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\google-play.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\google.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\google.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\graduated.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\graduated.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\importio.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\importio.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\linkedin.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\linkedin.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\mastercard.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\mastercard.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\microsoft.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\microsoft.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\netflix.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\netflix.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\paypal.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\paypal.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\pencil.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\pencil.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\science.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\science.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\shippable.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\shippable.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\uni-logo-01.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\uni-logo-01.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\uni-logo-02.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\uni-logo-02.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\uni-logo-03.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\uni-logo-03.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\uni-logo-04.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\uni-logo-04.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\visa.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\visa.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\client\\yamaha.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\client\\yamaha.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\01.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\02.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\03.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\04.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\05.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\06.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\07.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\08.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\09.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\10.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\11.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\12.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\13.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\14.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\15.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\16.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\17.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\18.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\19.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\20.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\21.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\22.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\23.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\24.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\25.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\25.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\courses\\4by3\\26.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses\\4by3\\26.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\01.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\01.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\01.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\02.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\02.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\02.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\03.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\03.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\04.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\04.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\04.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\05.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\05.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\05.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\06.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\06.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\06.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\07.png",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\07.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\07.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\07.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\08.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\08.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\09.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\09.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\10.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\10.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\14.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\14.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\15.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\15.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\16.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\16.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\17.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\17.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\18.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\18.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\19.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\19.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\20.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\20.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\21.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\21.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\22.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\22.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\23.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\23.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\24.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\24.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\25.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\25.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\26.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\26.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\27.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\27.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\29.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\29.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\30.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\30.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\abc.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\abc.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\account.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\account.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\add-course.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\add-course.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\app-store.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\app-store.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\artist.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\artist.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\cart.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\cart.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\category-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\category-1.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\category-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\category-2.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\child.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\child.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\coding.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\coding.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\coming-soon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\coming-soon.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\contact.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\contact.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\create-account.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\create-account.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\data-science.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\data-science.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\earn-money.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\earn-money.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\engineering.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\engineering.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\error404-01.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\error404-01.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\exam.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\exam.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\gallery.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\gallery.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\google-play.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\google-play.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\help-center.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\help-center.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\help.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\help.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\high-school.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\high-school.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\home.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\home.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\idea.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\idea.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\instructor-course.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\instructor-course.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\lego.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\lego.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\map.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\map.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\marketing.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\marketing.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\medal-badge.png",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\medal-badge.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\medal.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\medal.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\medical.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\medical.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\middle-school.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\middle-school.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\music.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\music.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\online.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\online.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\photography.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\photography.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\primary-school.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\primary-school.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\profit.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\profit.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\rocket.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\rocket.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\song.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\song.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\element\\sport.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\element\\sport.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\01.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\02.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\03.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\04.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\05.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\06.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\07.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\08.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\09.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\10.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\11.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\12.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\13.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\14.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\15.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\16.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\17.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\event\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\event\\18.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\flags\\ar.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\ar.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\flags\\au.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\au.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\flags\\cn.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\cn.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\flags\\fr.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\fr.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\flags\\gr.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\gr.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\flags\\in.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\in.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\flags\\it.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\it.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\flags\\nz.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\nz.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\flags\\sp.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\sp.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\flags\\uk.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\uk.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\flags\\us.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\us.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\instructor\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instructor\\01.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\instructor\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instructor\\02.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\instructor\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instructor\\03.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\instructor\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instructor\\04.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\instructor\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instructor\\06.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\instructor\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instructor\\07.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\instructor\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instructor\\08.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\instructor\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instructor\\09.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\instructor\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instructor\\10.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\instructor\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instructor\\11.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\logo-light.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-light.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\logo-mobile-light.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-mobile-light.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\logo-mobile.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-mobile.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\pattern\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern\\01.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\pattern\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern\\02.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\pattern\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern\\03.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\pattern\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern\\04.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\pattern\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern\\05.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\university\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\university\\01.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\university\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\university\\02.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\university\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\university\\03.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\university\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\university\\04.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\videos\\1080p.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\videos\\1080p.mp4"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\videos\\360p.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\videos\\360p.mp4"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\videos\\720p.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\videos\\720p.mp4"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\videos\\en.vtt",
+      "PackagePath": "staticwebassets\\assets\\images\\videos\\en.vtt"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\videos\\fr.vtt",
+      "PackagePath": "staticwebassets\\assets\\images\\videos\\fr.vtt"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\images\\videos\\poster.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\videos\\poster.jpg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\1.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\10.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\11.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\12.png",
+      "PackagePath": "staticwebassets\\assets\\img\\12.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\13.png",
+      "PackagePath": "staticwebassets\\assets\\img\\13.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\14.png",
+      "PackagePath": "staticwebassets\\assets\\img\\14.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\2.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\3.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\4.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\5.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\6.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\7.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\8.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\img\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\9.png"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\jquery\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\js\\functions.js",
+      "PackagePath": "staticwebassets\\assets\\js\\functions.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\apexcharts\\css\\apexcharts.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\apexcharts\\css\\apexcharts.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\apexcharts\\js\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\apexcharts\\js\\apexcharts.min.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-iconsbf04.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-iconsbf04.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-iconsbf04.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-iconsbf04.woff2"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\choices\\css\\choices.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\choices\\css\\choices.min.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\choices\\js\\choices.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\choices\\js\\choices.min.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\imagesLoaded\\imagesloaded.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\imagesLoaded\\imagesloaded.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\isotope\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\isotope\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\overlay-scrollbar\\css\\overlayscrollbars.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\overlay-scrollbar\\css\\overlayscrollbars.min.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\overlay-scrollbar\\js\\overlayscrollbars.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\overlay-scrollbar\\js\\overlayscrollbars.min.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\plyr\\plyr.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\plyr\\plyr.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\plyr\\plyr.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\plyr\\plyr.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\purecounterjs\\dist\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\purecounterjs\\dist\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\quill\\css\\quill.snow.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\css\\quill.snow.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\quill\\js\\quill.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\js\\quill.min.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\stepper\\css\\bs-stepper.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\stepper\\css\\bs-stepper.min.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\stepper\\js\\bs-stepper.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\stepper\\js\\bs-stepper.min.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\sticky-js\\sticky.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\sticky-js\\sticky.min.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\tiny-slider\\tiny-slider-rtl.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\tiny-slider\\tiny-slider-rtl.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\assets\\vendor\\tiny-slider\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\tiny-slider\\tiny-slider.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\js\\account.js",
+      "PackagePath": "staticwebassets\\js\\account.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\js\\progress.js",
+      "PackagePath": "staticwebassets\\js\\progress.js"
+    },
+    {
+      "Id": "D:\\myproject\\Train\\Train\\TrainProject\\wwwroot\\js\\slimscroll.js",
+      "PackagePath": "staticwebassets\\js\\slimscroll.js"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.TrainProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.TrainProject.props",
+      "PackagePath": "build\\TrainProject.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TrainProject.props",
+      "PackagePath": "buildMultiTargeting\\TrainProject.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.TrainProject.props",
+      "PackagePath": "buildTransitive\\TrainProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

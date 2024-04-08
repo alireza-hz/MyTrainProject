@@ -1,0 +1,375 @@
+﻿@model Domain.Products.MyProduct;
+
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+	<title>Eduport - قالب HTML دوره آنلاین و آموزش</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="">
+	<meta name="description" content="Eduport - قالب HTML دوره آنلاین و آموزش">
+
+	<!-- Dark mode -->
+	<script>
+		const storedTheme = localStorage.getItem('theme')
+
+		const getPreferredTheme = () => {
+			if (storedTheme) {
+				return storedTheme
+			}
+			return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+		}
+
+		const setTheme = function (theme) {
+			if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+				document.documentElement.setAttribute('data-bs-theme', 'dark')
+			} else {
+				document.documentElement.setAttribute('data-bs-theme', theme)
+			}
+		}
+
+		setTheme(getPreferredTheme())
+
+		window.addEventListener('DOMContentLoaded', () => {
+			var el = document.querySelector('.theme-icon-active');
+			if (el != 'undefined' && el != null) {
+				const showActiveTheme = theme => {
+					const activeThemeIcon = document.querySelector('.theme-icon-active use')
+					const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
+					const svgOfActiveBtn = btnToActive.querySelector('.mode-switch use').getAttribute('href')
+
+					document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+						element.classList.remove('active')
+					})
+
+					btnToActive.classList.add('active')
+					activeThemeIcon.setAttribute('href', svgOfActiveBtn)
+				}
+
+				window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+					if (storedTheme !== 'light' || storedTheme !== 'dark') {
+						setTheme(getPreferredTheme())
+					}
+				})
+
+				showActiveTheme(getPreferredTheme())
+
+				document.querySelectorAll('[data-bs-theme-value]')
+					.forEach(toggle => {
+						toggle.addEventListener('click', () => {
+							const theme = toggle.getAttribute('data-bs-theme-value')
+							localStorage.setItem('theme', theme)
+							setTheme(theme)
+							showActiveTheme(theme)
+						})
+					})
+
+			}
+		})
+
+	</script>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="/assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="/assets/vendor/choices/css/choices.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/vendor/aos/aos.css">
+	<link rel="stylesheet" type="text/css" href="/assets/vendor/glightbox/css/glightbox.css">
+	<link rel="stylesheet" type="text/css" href="/assets/vendor/quill/css/quill.snow.css">
+	<link rel="stylesheet" type="text/css" href="/assets/vendor/stepper/css/bs-stepper.min.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-rtl.css">
+
+</head>
+
+<body>
+
+	<!-- **************** MAIN CONTENT START **************** -->
+	<main>
+
+		<!-- =======================
+		Page Banner START -->
+		<section class="py-0 bg-blue h-100px align-items-center d-flex h-200px rounded-0" style="background:url(assets/images/pattern/04.png) no-repeat center center; background-size:cover;">
+			<!-- Main banner background image -->
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center">
+						<!-- Title -->
+						<h1 class="text-white">ویرایش</h1>
+					
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- =======================
+		Page Banner END -->
+		<!-- =======================
+		Steps START -->
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 mx-auto text-center">
+						<!-- Content -->
+
+					</div>
+				</div>
+
+				<div class="card bg-transparent border rounded-3 mb-5">
+					<div id="stepper" class="bs-stepper stepper-outline">
+						<!-- Card header -->
+						<div class="card-header bg-light border-bottom px-lg-5">
+							<!-- Step Buttons START -->
+							<div class="bs-stepper-header" role="tablist">
+								<!-- Step 1 -->
+								<div class="step" data-target="#step-1">
+									<div class="d-grid text-center align-items-center">
+										<button type="button" class="btn btn-link step-trigger mb-0" role="tab" id="steppertrigger1" aria-controls="step-1">
+											<span class="bs-stepper-circle">1</span>
+										</button>
+										<h6 class="bs-stepper-label d-none d-md-block">جزئیات دوره</h6>									
+										<h6 class="bs-stepper-label d-none d-md-block">اخرین ویرایش در @Dataconvert.Toshamsi(Model.ModifiedDate)</h6>									
+										
+									</div>
+
+								</div>
+
+
+
+
+
+							</div>
+							<!-- Step Buttons END -->
+						</div>
+
+						<!-- Card body START -->
+						<div class="card-body">
+							<!-- Step content START -->
+
+							<form asp-action="EditCource" method="post" enctype="multipart/form-data">
+								<input type="hidden" asp-for="MyProductId" />
+								<input type="hidden" asp-for="ModifiedDate" />
+								<!-- Step 1 content START -->
+								<div id="step-1" role="tabpanel" class="content fade" aria-labelledby="steppertrigger1">
+									<!-- Title -->
+
+
+									<hr> <!-- Divider -->
+									<!-- Basic information START -->
+									<div class="row g-4">
+										<!-- Course title -->
+										<div class="col-12">
+											<label class="form-label">عنوان</label>
+											<span asp-validation-for="ProductName" class="input-group-text bg-light rounded-start border-0 text-secondary px-3"></span>
+											<input asp-for="ProductName" class="form-control" type="text">
+
+										</div>
+
+
+
+										<!-- Course category -->
+										<div class="col-md-6">
+											<label class="form-label">دسته بندی</label>
+											<select asp-for="MyCategoryID" class="form-select js-choice border-0 z-index-9 bg-transparent">
+												<span asp-validation-for="MyCategoryID" class="input-group-text bg-light rounded-start border-0 text-secondary px-3"></span>
+												@foreach (var categories in ViewBag.Categories)
+												{
+													<option value="@categories.MyCategoryID">@categories.description</option>
+												}
+
+											</select>
+										</div>
+
+										<!-- Course level -->
+										<div class="col-md-6">
+											<label class="form-label">سطح دوره</label>
+											<select asp-for="MYlevelID" class="form-select js-choice border-0 z-index-9 bg-transparent" aria-label=".form-select-sm" data-search-enabled="false" data-remove-item-button="true">
+												<span asp-validation-for="MYlevelID" class="input-group-text bg-light rounded-start border-0 text-secondary px-3"></span>
+												@foreach (var levels in ViewBag.levels)
+												{
+													<option value="@levels.MYlevelID">@levels.Description</option>
+												}
+											</select>
+
+										</div>
+
+
+
+
+										<!-- Course time -->
+										<div class="col-md-6">
+											<label class="form-label">مدت زمان دوره</label>
+											<input asp-for="DurationData" class="form-control" type="text" placeholder="4:33:00">
+											<span asp-validation-for="DurationData" class="input-group-text bg-light rounded-start border-0 text-secondary px-3"></span>
+										</div>
+
+										<!-- Total lecture -->
+										<div class="col-md-6">
+											<label class="form-label">تعداد ویدیوها</label>
+											<input asp-for="CountVideo" class="form-control" type="text" placeholder="19 ویدیو">
+											<span asp-validation-for="CountVideo" class="input-group-text bg-light rounded-start border-0 text-secondary px-3"></span>
+										</div>
+
+										<!-- Course price -->
+										<div class="col-md-6">
+											<label class="form-label">قیمت</label>
+											<input asp-for="Price" type="text" class="form-control" placeholder="90,000 تومان">
+											<span asp-validation-for="Price" class="input-group-text bg-light rounded-start border-0 text-secondary px-3"></span>
+										</div>
+										<br />
+
+
+										<div class="col-12">
+											<label class="form-label">توضیحات درباره دوره</label>
+											<textarea asp-for="Description" class="form-control" rows="3"></textarea>
+											<span asp-validation-for="Description" class="input-group-text bg-light rounded-start border-0 text-secondary px-3"></span>
+										</div>
+
+
+
+
+										<!-- Upload image START -->
+										<div class="col-12">
+											<div class="text-center justify-content-center align-items-center p-4 p-sm-5 border border-2 border-dashed position-relative rounded-3">
+												<!-- Image -->
+												<img src="/Avatars/@Model.Avatar" class="h-50px" alt="">
+												<div>
+													<h6 class="my-2">آپلود عکس </h6>
+													<label>
+														<span>
+															<div class="input-group">
+																<input asp-for="Avatar" type="file" class="form-control stretched-link upload-name border-end-0" name="img" id="img" />
+																<span class="btn btn btn-secondary-soft cursor-pointer upload-button border-start-0">آپلود فایل</span>
+															</div>
+															@* <input type="file" name="img" id="img" class="d-none hidden-upload" /> *@
+														</span>
+													</label>
+
+												</div>
+											</div>
+
+
+										</div>
+										<!-- Upload image END -->
+
+										<div class="d-flex justify-content-between mt-3">
+											<button type="submit" class="btn btn-primary mb-0">ویرایش </button>
+										</div>
+										<div asp-validation-summary="All"></div>
+
+									</div>
+									<!-- Basic information START -->
+								</div>
+
+							</form>
+						</div>
+					</div>
+					<!-- Card body END -->
+				</div>
+			</div>
+			</div>
+		</section>
+		<!-- =======================
+		Steps END -->
+
+	</main>
+	<!-- **************** MAIN CONTENT END **************** -->
+	<!-- =======================
+	Footer START -->
+	<footer class="bg-dark p-3">
+		<div class="container">
+			<div class="row align-items-center">
+				<!-- Widget -->
+				<div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+					<!-- Logo START -->
+					<a href="index.html"> <img class="h-20px" src="assets/images/logo-light.svg" alt="logo"> </a>
+				</div>
+
+				<!-- Widget -->
+				<div class="col-md-4 mb-3 mb-md-0">
+					<div class="text-center text-white">
+						ارائه شده در سایت <a href="https://www.rtl-theme.com/" target="_blank" class="text-reset btn-link">راست چین</a>
+					</div>
+				</div>
+				<!-- Widget -->
+				<div class="col-md-4">
+					<!-- Rating -->
+					<ul class="list-inline mb-0 text-center text-md-end">
+						<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-facebook"></i></a></li>
+						<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-instagram"></i></a></li>
+						<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-linkedin-in"></i></a></li>
+						<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- =======================
+	Footer END -->
+	
+	<!-- Back to top -->
+	<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
+
+	<!-- Bootstrap JS -->
+	<script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Vendors -->
+	<script src="/assets/vendor/choices/js/choices.min.js"></script>
+	<script src="/assets/vendor/aos/aos.js"></script>
+	<script src="/assets/vendor/glightbox/js/glightbox.js"></script>
+	<script src="/assets/vendor/quill/js/quill.min.js"></script>
+	<script src="/assets/vendor/stepper/js/bs-stepper.min.js"></script>
+
+	<!-- Template Functions -->
+	<script src="assets/js/functions.js"></script>
+	<script>
+		document.querySelector(".upload-button").onclick = function () {
+			document.querySelector(".hidden-upload").click();
+		};
+
+		document.querySelector(".hidden-upload").onchange = function () {
+			document.querySelector(".upload-name").value = event.target.files[0].name;
+		};
+		// Upload File .mp4
+		document.querySelector(".upload-button-mp4").onclick = function () {
+			document.querySelector(".hidden-upload-mp4").click();
+		};
+
+		document.querySelector(".hidden-upload-mp4").onchange = function () {
+			document.querySelector(".upload-name-mp4").value = event.target.files[0].name;
+		};
+		// Upload File .WebM
+		document.querySelector(".upload-button-web").onclick = function () {
+			document.querySelector(".hidden-upload-web").click();
+		};
+
+		document.querySelector(".hidden-upload-web").onchange = function () {
+			document.querySelector(".upload-name-web").value = event.target.files[0].name;
+		};
+		// Upload File .OGG
+		document.querySelector(".upload-button-ogg").onclick = function () {
+			document.querySelector(".hidden-upload-ogg").click();
+		};
+
+		document.querySelector(".hidden-upload-ogg").onchange = function () {
+			document.querySelector(".upload-name-ogg").value = event.target.files[0].name;
+		};
+	</script>
+</body>
+
+</html>
+
+@section Scripts {
+	<script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+	<script>
+		CKEDITOR.replace('Description');
+
+	</script>
+}

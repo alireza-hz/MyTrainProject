@@ -1,0 +1,215 @@
+﻿	<!-- Page main content START -->
+<div class="page-content-wrapper border">
+
+	<!-- Title -->
+	<div class="row">
+		<div class="col-12 mb-3">
+			<h1 class="h3 mb-2 mb-sm-0 fs-5">داشبورد</h1>
+		</div>
+	</div>
+
+	<!-- Counter boxes START -->
+	<div class="row g-4 mb-4">
+		<!-- Counter item -->
+		<div class="col-md-6 col-xxl-3">
+			<div class="card card-body bg-warning bg-opacity-15 p-4 h-100">
+				<div class="d-flex justify-content-between align-items-center">
+					<!-- Digit -->
+					<div>
+						<h2 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="@ViewBag.countAll" data-purecounter-delay="200">0</h2>
+						<span class="mb-0 h6 fw-light">دوره های تکمیل شده</span>
+					</div>
+					<!-- Icon -->
+					<div class="icon-lg rounded-circle bg-warning text-white mb-0"><i class="fas fa-tv fa-fw"></i></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Counter item -->
+		<div class="col-md-6 col-xxl-3">
+			<div class="card card-body bg-purple bg-opacity-10 p-4 h-100">
+				<div class="d-flex justify-content-between align-items-center">
+					<!-- Digit -->
+					<div>
+						<h2 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="@ViewBag.Countuser" data-purecounter-delay="200">0</h2>
+						<span class="mb-0 h6 fw-light">شرکت کنندگان</span>
+					</div>
+					<!-- Icon -->
+					<div class="icon-lg rounded-circle bg-purple text-white mb-0"><i class="fas fa-user-tie fa-fw"></i></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Counter item -->
+		<div class="col-md-6 col-xxl-3">
+			<div class="card card-body bg-primary bg-opacity-10 p-4 h-100">
+				<div class="d-flex justify-content-between align-items-center">
+					<!-- Digit -->
+					<div>
+						<h2 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="@ViewBag.CountAddtocart" data-purecounter-delay="200">0</h2>
+						<span class="mb-0 h6 fw-light">تعداد ثبت نام در دوره </span>
+					</div>
+					<!-- Icon -->
+					<div class="icon-lg rounded-circle bg-primary text-white mb-0"><i class="fas fa-user-graduate fa-fw"></i></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Counter item -->
+		<div class="col-md-6 col-xxl-3">
+			<div class="card card-body bg-success bg-opacity-10 p-4 h-100">
+				<div class="d-flex justify-content-between align-items-center">
+					<!-- Digit -->
+					<div>
+						<div class="d-flex">
+							<span class="mb-0 h2 me-1">تومان</span>
+							<h4 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="@ViewBag.priceMounth" data-purecounter-delay="200"></h4>
+						</div>
+						<span class="mb-0 h6 fw-light">درامد اخرین ماه</span>
+					</div>
+					<!-- Icon -->
+					<div class="icon-lg rounded-circle bg-success text-white mb-0"><i class="bi bi-stopwatch-fill fa-fw"></i></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Counter boxes END -->
+	<!-- Chart and Ticket START -->
+	<div class="row g-4 mb-4">
+
+		<!-- Chart START -->
+		<div class="col-xxl-8">
+			<div class="card shadow h-100">
+
+				<!-- Card header -->
+				<div class="card-header p-4 border-bottom">
+					<h5 class="card-header-title">آمار فروش</h5>
+				</div>
+
+				<!-- Card body -->
+				<div class="card-body">
+					<!-- Apex chart -->
+					<div id="Chart"></div>
+				</div>
+			</div>
+		</div>
+		<!-- Chart END -->
+		
+
+	
+
+				
+	</div>
+	<!-- Chart and Ticket END -->
+	
+		
+		<!-- Traffic sources START -->
+		<div class="col-lg-6 col-xxl-4">
+			
+			<div class="card card-body shadow p-4 mb-4">
+				<h4 class="mb-3 fs-5">امار بازدید</h4>
+				<ul class="list-group list-group-borderless">
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<span class="h6 fw-light mb-0"><i class="fas fa-fw fa-book-open text-primary"></i> :تعداد افراد آنلاین  </span>
+						<span>@ViewBag.countonline</span>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<span class="h6 fw-light mb-0"><i class="fas fa-fw fa-clock text-primary"></i>:تعداد امار بازدید امروز</span>
+						<span>@ViewBag.countvisitdaily</span>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<span class="h6 fw-light mb-0"><i class="fas fa-fw fa-signal text-primary"></i> :امار بازدید این ماه </span>
+						<span>@ViewBag.countvisitmounthly</span>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<span class="h6 fw-light mb-0"><i class="fas fa-fw fa-globe text-primary"></i> :بازدید کل</span>
+						<span>@ViewBag.countvisitAll</span>
+					</li>
+
+				</ul>
+
+			</div>
+		
+	   </div>
+		<!-- Traffic sources END -->
+
+	</div>
+	<!-- Top listed Cards END -->
+
+
+<!-- Page main content END -->
+@section Charts {
+	<script>
+	
+		var myData = @Html.Raw(Json.Serialize(ViewBag.MyData));
+
+		
+		function dashboardChart() {
+			var ac = document.querySelector('#Chart');
+			if (ac) {
+				var options = {
+					series: [{
+						name: 'Payout',
+						data: myData 
+					}],
+					chart: {
+						height: 300,
+						type: 'area',
+						toolbar: {
+							show: false
+						},
+						
+					},
+					dataLabels: {
+						enabled: true
+					},
+					stroke: {
+						curve: 'smooth'
+					},
+					colors: [ThemeColor.getCssVariableValue('--bs-primary')],
+					xaxis: {
+						type: 'Payout',
+						categories: ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر', 'آبان', 'آذر', 'دی', 'بهمن', 'اسفند'],
+						axisBorder: {
+							show: false
+						},
+						axisTicks: {
+							show: false
+						},
+					},
+					yaxis: [{
+						axisTicks: {
+							show: false
+						},
+						axisBorder: {
+							show: false
+						},
+					}],
+					tooltip: {
+						y: {
+							title: {
+								formatter: function (e) {
+									return "" + "تومان";
+								}
+							}
+						},
+						marker: {
+							show: !1
+						}
+					}
+
+
+				};
+				var chart = new ApexCharts(document.querySelector("#Chart"), options);
+				chart.render();
+			}
+		}
+
+		dashboardChart();
+
+	</script>
+
+	
+}
+
+

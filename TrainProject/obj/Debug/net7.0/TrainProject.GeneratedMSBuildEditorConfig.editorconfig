@@ -1,0 +1,175 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TrainProject
+build_property.RootNamespace = TrainProject
+build_property.ProjectDir = D:\myproject\Train\Train\TrainProject\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\myproject\Train\Train\TrainProject
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Cource/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xDb3VyY2VcQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Cource/EditCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xDb3VyY2VcRWRpdENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Cource/EditCource.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xDb3VyY2VcRWRpdENvdXJjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Cource/ShowActiveCource.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xDb3VyY2VcU2hvd0FjdGl2ZUNvdXJjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Cource/ShowCategoryWithFilter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xDb3VyY2VcU2hvd0NhdGVnb3J5V2l0aEZpbHRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Cource/ShowDeleteCource.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xDb3VyY2VcU2hvd0RlbGV0ZUNvdXJjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Home/AdminAddCource.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xIb21lXEFkbWluQWRkQ291cmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Home/AdminCourceCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xIb21lXEFkbWluQ291cmNlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Home/AdminCourceList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xIb21lXEFkbWluQ291cmNlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Home/ShowVisit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xIb21lXFNob3dWaXNpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/Sale/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xTYWxlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xVc2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/User/ShowCourceofuser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xVc2VyXFNob3dDb3VyY2VvZnVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/PanelAdmin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFuZWxBZG1pblxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/StudentPanel/Views/Home/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFBhbmVsXFZpZXdzXEhvbWVcRWRpdFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/StudentPanel/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFBhbmVsXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/StudentPanel/Views/Shared/Components/ProfileComplit/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFBhbmVsXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFByb2ZpbGVDb21wbGl0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/StudentPanel/Views/Shared/Components/Profile/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFBhbmVsXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFByb2ZpbGVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/StudentPanel/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFBhbmVsXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Areas/StudentPanel/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFBhbmVsXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Account/Confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Home/AddtoItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGR0b0l0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Home/AddToTransaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRUb1RyYW5zYWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Home/filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmaWx0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Home/ShowCource.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93Q291cmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Home/ShowGridCource.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93R3JpZENvdXJjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Shared/_PanelAdmianLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYW5lbEFkbWlhbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Shared/_UserPanelLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyUGFuZWxMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/myproject/Train/Train/TrainProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-d7ste7k7kd
